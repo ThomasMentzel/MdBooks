@@ -36,7 +36,7 @@ Das -wir erinnern uns- hilft hierbei. Alle unterschiedlichen/möglichen Aktionen
 
 Die Command-Line Parameter werden 1:1 and die Commands durchgereicht (natürlich könnte auch der erste Parameter gelöscht werden). Es gibt also in der Assembly für alle Aktionen eine separate Klasse mit der Implementierung der Schnittstelle `ICommand`.
 
-##Find & Execute
+##Find and Execute
 
 Das unspannendste aber auch effizienteste ist das Instanziieren und Ausführen der Aktionen. Die `Main`-Methode ermittelt alle Implementierungen der Command-Schnittstelle, instanziiert die Implementierung mit dem korrespondierendem Namen  und ruft die `Execute` Methode auf.
 
